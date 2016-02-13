@@ -1,6 +1,6 @@
 # 1 Vs 100    
 
-## [Executive Summary](https://class-git.engineering.uiowa.edu/swd-fall-2015/swd_team01/blob/master/1vs100Game/Execute_Summary.docx) 
+## [Executive Summary](https://github.com/zdswanson/SWD_2015/blob/master/1vs100Game/Execute_Summary_Team01.docx) 
 The game is simple, last longer than your opponent. If you answer incorrectly, you are eliminated. It is based off of the TV show 1 vs 100 where one person ('The One') plays trivia against 100 players collectively called ‘The Mob’. During the game the players will answer a myriad of electrical engineering questions. Each player of the Mob has 15 seconds to select their answer. A player in The Mob cannot change his or her answer once it has been selected, because the time they take to answer determines their score for that question. After the Mob has answered the question the One will have a chance to answer. When the One is selecting their answer they will have an unlimited amount of time after the mob's 15 seconds is up. If the One chooses the correct answer then they will be scored upon how many of the Mob players are eliminated by that question. The players of the mob are scored on how quickly they answered the question as stated above. The One and the Mob scoring are completely separate from each other.
 
 The top ten Mob members are listed in a leaderboard. If the One answers a question incorrectly the top member of the mob who is still will take their place and then the game will restart. Beneath the Mob leaderboard is a panel that displays the score of the person playing, as well as their overall rank. Above it shows the remaining number of people left in the Mob as well as the score of the One.
@@ -41,7 +41,7 @@ The game will reset once the one gets an question wrong or the entire Mob has be
 * Starts new games without reconnecting all of the clients to the server.  
 * Client is asked at start for IP of server via popup, popup defaults to 127.0.0.1
 
-## [User Documentation] (https://class-git.engineering.uiowa.edu/swd-fall-2015/swd_team01/blob/master/1vs100Game/User_Guide.docx)
+## [User Documentation] (https://github.com/zdswanson/SWD_2015/blob/master/1vs100Game/User_Guide_Team01.docx)
  
 The game is split up into two groups, "The One" and "The Mob". When starting the game, the first person to connect is the first "One". Then the rest of the "Mob" can start their clients whenever they want. When everyone is in the game, the person running the server should press the start button on their server GUI; this starts the game. No users will be able to connect after the server has initiated the first game.
 
@@ -85,7 +85,7 @@ The leaderboard contains info on the top ten, how many mob members are remaining
 * Starts new games without reconnecting all of the clients to the server.  
 * Client is asked at start for IP of server via popup, popup defaults to 127.0.0.1
 
-## [Developer Documentation] (https://class-git.engineering.uiowa.edu/swd-fall-2015/swd_team01/blob/master/1vs100Game/Developers_Guide.docx) 
+## [Developer Documentation] (https://github.com/zdswanson/SWD_2015/blob/master/1vs100Game/Developers_Guide_Team01.docx) 
 
 The code for this program is split into four files; two monstrous files each containing one class and one private inner class, and  two test classes used to initialize a GUI with an object of the associated class (`GameServer` for `GameServerTest` and `GameClient` for `GameClientTest`). 
 
@@ -102,6 +102,6 @@ The top ten of Mob leader board shows the One's score the current client's score
 The question and the three answers have interesting features. First the client only has fifteen seconds to answer the question. Once the client has selected an answer it will turn yellow as well as the square that the client represents in the Mob or One. If the answer is right it will turn from yellow to green. If the answer selected is wrong then the answer will turn from yellow to red and the correct answer will turn up as green. We do this by changing the color of the panels that each of the answer is contained in. 
 Each of the squares represent a player and if they are in the game or not. Each black square represents an uninitialized mob players, each blue player represents an initialized player. Similar to the answer panels it will turn yellow once a player of the mob has selected an answer and if a player gets the question wrong their square will turn red and then to gray because they will become an observer to the game and won’t actually be able to answer the questions. If they get it right it will turn from yellow to green and continue to play the game as a member of the mob.
 
-![1vs100Game](https://class-git.engineering.uiowa.edu/swd-fall-2015/swd_team01/uploads/f57febcad188b7ec936e9c67ce4b5adb/1vs100Game.png)
+![1vs100Game](https://github.com/zdswanson/SWD_2015/blob/master/1vs100Game/1vs100Game.png)
 
-## [Source Code](https://class-git.engineering.uiowa.edu/swd-fall-2015/swd_team01/tree/master/1vs100Game/src)  
+## [Source Code](https://github.com/zdswanson/SWD_2015/blob/master/1vs100Game/src)  
