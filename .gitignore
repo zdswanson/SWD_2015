@@ -1,0 +1,44 @@
+# bytecode-compiled files
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Compiled Static libraries
+*.a
+*.config
+*.la
+*.lai
+*.lo
+
+# Compiled Object files
+*.o
+*.obj
+*.orig
+*.pyc
+*.raw
+*.sample
+*.slo
+
+# Compiled Dynamic libraries
+*.dylib
+*.so
+*.swp
+
+# editor and filesystem meta-data
+*~
+.DS_Store
+.RData
+.RDataTmp
+.Rhistory
+._*
+.emacs.desktop
+.svn

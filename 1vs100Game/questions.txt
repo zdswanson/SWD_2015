@@ -1,0 +1,48 @@
+Suppose I want to access the last part of an array of size five, what is the value of the index I would use?:3:4:5:2
+Which is the proper way to cast a string to an integer?:(int) String:Integer.toInt(String):toString(int):1
+How many choices are there for a boolean?:1:2:3:2
+What is a class?:A place where you learn:Casavant's backyard:A blueprint for an object:3
+What does void mean?:The method has no return value:The hole where your heart used to be: The method can return any value:1
+Fill in the blank, a binary search ______:bush:river:tree:3
+What is the decimal conversion of the binary number 10010?:20:18:12:2
+A top level class must only have which access modifier?:public:private:friendly:1
+Who's the hardest person to take the oral exam with?:Casavant:Johnson:Emily:2
+How do you make a class abstract?:Add implements to it:Add abstract to it:Add friendly to it:2
+How can you create a comment in Java?:(comment)://:{}:2
+k++ will add one to k when?:After k is read:Before k is read:Whenever it fells like:1
+By convention, all class names begin with a capital letter:True:False:Meh:1
+A primitive type can invoke a method:True:False:Maybe:2
+Which is most correct?:public void newMethod():public void NewMethod():public void newmethod():1
+What is the speed of light?:2x10^8:3x10^8:3x10^9:2
+Magnetic Hysteresis is best described as?:\"Leap forward\":\"Non-magnetic\":\"Lag Behind\":3
+An Employee class would NOT contain which instance variable?:Name:Date of birth:Name of his/her car:3
+An Employee class would NOT contain which of these methods?:getSalary:getName:isAlexTrebek():3
+A program simulating orbiting planets would NOT utilize which concept?:Multi-threading:GUIs:Functional programming:3
+The _______ control statement is used to run code when a condition is true:for:if:while:2
+Which does not add one to the variable x?:x++:++x:x=+1:3
+Methods that perform common tasks and do not require objects are called _____ methods:private:void:static:3
+What does ! mean?:Not:Yes:Never:1
+On RollingStone's top 100 artists list, who is number 77?:The Beastie Boys:Tom Petty:Jay-Z:1
+The default case is optional in a switch statement:True:False:default isn't a command:1
+int x=0; System.out.println(/"++x/"); will print?:0:1:2:2
+A byte is how many bits?:4:8:9:2
+What is the frequency domain of a rectangular function?:e^t:sinc:cos:2
+A good dielectric is one that:Conducts well:Doesn't conduct well:Only contains protons:2
+A self-_____ class is used to form dynamic data structures that can grow and shrink at execution time:referential:deprecating:driven:1
+Automatically reclaiming dynamically allocated memory in Java is called ______:Reclaiming:Garbage Collecting:Storing:2
+The compiler uses a(n) ______ to locate the classes it needs in the class path:Keyword Locater:Key Parse:Class Loader:3
+______ enables a class to reuse code by storing a reference to an instance of another class in a field:Classes:Inheritance:Composition:3
+______ allows us to create as many data structure objects as we wish:Classes:Inheritance:Composition:1
+______ enables a subclass to reuse the functionality of a superclass:Classes:Inheritance:Composition:2
+Using the == operator on two strings returns true when:The two strings are equal:The two strings are the same object in memory:It never returns true:2
+Can a string be modified after it is created?:Yes:No:Sometimes:2
+Why are StringBuilder objects special?:They are used as constants:The are dynamically stored:The can be modified after they're created:3
+Binary files are always human readable:True:False:Binary files aren't real:2
+A set can contain duplicate values:True:False:Sets cannot contain values:2
+Collections is an interface:True:False:Collections isn't real:2
+Collection is an interface:True:False:Collection isn't real:1
+A _____ is needed to terminate recursion:End case:Base case:End condition:2
+The first call to invoke a recursive method is:Recursive:The recursive step:None of the above:3
+A selection sort is big-Oh of what?:O(logn):O(nlogn):O(n^2):3
+A merge sort is big-Oh of what?:O(logn):O(nlogn):O(n^2):2
+When does a thread terminate?:When its run method completes:When the user says so:When Thread.terminate() is called:1
